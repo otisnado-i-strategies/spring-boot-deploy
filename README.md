@@ -1,305 +1,477 @@
-![](RackMultipart20211122-4-15ie4z6_html_19519eafc905a0c0.jpg)
+![](media/image1.png){width="1.95in" height="1.9680555555555554in"}
 
-![](RackMultipart20211122-4-15ie4z6_html_6d28cf41d8dff0d7.png)
+DOCUMENTACIÓN TÉCNICA
 
-# DOCUMENTACIÓN TÉCNICA
+SOP - DELSUR
 
-# SOP - DELSUR
+![](media/image2.png){width="2.9782852143482064in"
+height="1.7716535433070866in"}
 
-![](RackMultipart20211122-4-15ie4z6_html_918aea6943676f6d.png)
+# Contenido {#contenido .TOC-Heading}
 
-# Contenido
+[1. BASES DE DATOS [3](#bases-de-datos)](#bases-de-datos)
 
-_**[1.](#_Toc88458025)**__ **BASES DE DATOS 3** _
+[1.1. ESQUEMAS [3](#esquemas)](#esquemas)
 
-**[1.1.](#_Toc88458026)****ESQUEMAS 3**
+[1.1.1. SEC_USR [3](#sec_usr)](#sec_usr)
 
-[1.1.1. SEC\_USR 3](#_Toc88458027)
+[1.1.2. SOP [3](#sop)](#sop)
 
-[1.1.2. SOP 3](#_Toc88458028)
+[1.1.2.1. Tablas Creadas [3](#tablas-creadas)](#tablas-creadas)
 
-[1.1.2.1. Tablas Creadas 3](#_Toc88458029)
+[Tablas Modificadas: [4](#tablas-modificadas)](#tablas-modificadas)
 
-[Tablas Modificadas: 4](#_Toc88458030)
+[1.1.2.2. Secuencias Creadas
+[4](#secuencias-creadas)](#secuencias-creadas)
 
-[1.1.2.2. Secuencias Creadas 4](#_Toc88458031)
+[1.1.2.3. Secuencias Modificadas
+[4](#secuencias-modificadas)](#secuencias-modificadas)
 
-[1.1.2.3. Secuencias Modificadas 4](#_Toc88458032)
+[1.1.2.4. Disparadores Creados
+[5](#disparadores-creados)](#disparadores-creados)
 
-[1.1.2.4. Disparadores Creados 5](#_Toc88458033)
+[1.1.2.5. Disparadores Modificados
+[5](#disparadores-modificados)](#disparadores-modificados)
 
-[1.1.2.5. Disparadores Modificados 5](#_Toc88458034)
+[1.1.2.6. Paquetes Creados [5](#paquetes-creados)](#paquetes-creados)
 
-[1.1.2.6. Paquetes Creados 5](#_Toc88458035)
+[1.1.2.7. Paquetes Modificados
+[6](#paquetes-modificados)](#paquetes-modificados)
 
-[1.1.2.7. Paquetes Modificados 6](#_Toc88458036)
+[2. SERVICIOS [6](#servicios)](#servicios)
 
-_**[2.](#_Toc88458037)**__ **SERVICIOS 6** _
+[1.2. FIRMAS [6](#firmas)](#firmas)
 
-**[1.2.](#_Toc88458038)****FIRMAS 6**
+[1.2.1. Servidor de Reporting Services
+[6](#servidor-de-reporting-services)](#servidor-de-reporting-services)
 
-[1.2.1. Servidor de Reporting Services 6](#_Toc88458039)
+[1.2.2. Acceso a carpeta compartida para guardado de firmas
+[7](#acceso-a-carpeta-compartida-para-guardado-de-firmas)](#acceso-a-carpeta-compartida-para-guardado-de-firmas)
 
-[1.2.2. Acceso a carpeta compartida para guardado de firmas 7](#_Toc88458040)
+[1.3. CARPETA PARA GENERACIÓN DE LOGS
+[9](#carpeta-para-generación-de-logs)](#carpeta-para-generación-de-logs)
 
-**[1.3.](#_Toc88458041)****CARPETA PARA GENERACIÓN DE LOGS 9**
+[1.3.1. Tarea Programada [9](#tarea-programada)](#tarea-programada)
 
-[1.3.1.Tarea Programada 9](#_Toc88458042)
+[3. APLICACIÓN [10](#aplicación)](#aplicación)
 
-_**[3.](#_Toc88458043)**__ **APLICACIÓN 10** _
+[1.4. MENU PRINCIPAL [10](#menu-principal)](#menu-principal)
 
-**[1.4.](#_Toc88458044)****MENU PRINCIPAL 10**
+[1.4.1. Elementos Creados [10](#elementos-creados)](#elementos-creados)
 
-[1.4.1. Elementos Creados 10](#_Toc88458045)
+# ![](media/image3.png){width="0.3075087489063867in" height="0.3188976377952756in"}BASES DE DATOS
 
-1.
-# B ![](RackMultipart20211122-4-15ie4z6_html_324a8b6d3380e89f.png) ASES DE DATOS
+** **
 
-  1.
 ## ESQUEMAS
 
-- SEC\_USR: Seguridad, Autenticación y Roles.
-- SOP: Datos asociados a la aplicación SOP.
+-   SEC_USR: Seguridad, Autenticación y Roles. 
 
-####
+-   SOP: Datos asociados a la aplicación SOP. 
 
-    1.
-### SEC\_USR
+#### ** **
 
-En esta parte solo se ingresaron nuevos registros en la tabla SEC\_USR.ORA\_ASPNET\_SITEMAP para mostrar nuevos elementos en el menú de SOP:
+### SEC_USR 
 
-![](RackMultipart20211122-4-15ie4z6_html_4895ab306cd174e6.png)
+> En esta parte solo se ingresaron nuevos registros en la tabla
+> SEC_USR.ORA_ASPNET_SITEMAP para mostrar nuevos elementos en el menú de
+> SOP: 
+>
+> ![Graphical user interface, application, table Description
+> automatically generated](media/image4.png){width="5.626615266841645in"
+> height="1.5093514873140856in"} 
+>
+>  
 
-    1.
-### SOP
+2.  ### SOP 
 
-      1.
-### Tablas Creadas
+    1.  ### Tablas Creadas 
 
-- SOP\_ANEXO\_BDI
-- SOP\_ANEXO\_HORASEJECUCION
-- SOP\_CONDICION\_DEFI
-- SOP\_CONDICIONES\_FLUJO
+-   SOP_ANEXO_BDI 
 
-- SOP\_EMERGENCIA
-- SOP\_ESTADO
-- SOP\_FIRMA\_USUARIO
-- SOP\_LIMITESDEINGRESO
-- SOP\_MENSAJE\_PERSONALIZADO
+-   SOP_ANEXO_HORASEJECUCION 
 
-- SOP\_TICKET\_OMS
-- SOP\_TIPO\_INSTALACION
-- SOP\_VOLUMEN\_TRABAJO
+-   SOP_CONDICION_DEFI 
 
-### Tablas Modificadas:
+-   SOP_CONDICIONES_FLUJO 
 
-- SOP\_ANEXO\_PUB
-- SOP\_AREA
-- SOP\_CIRCUITO\_OP
-- SOP\_EMPLEADO
-- SOP\_EQUIPO\_ORDEN
+```{=html}
+<!-- -->
+```
+-   SOP_EMERGENCIA 
 
-- SOP\_FERIADO
-- SOP\_ORDEN\_OPERACION
-- SOP\_SEG\_ORDEN
+-   SOP_ESTADO 
 
-      1.
-### Secuencias Creadas
+-   SOP_FIRMA_USUARIO 
 
-- SOP\_SEQ\_CONDICIONES\_FLUJO
-- SOP\_SEQ\_CONDICION\_DEFI
-- SOP\_SEQ\_IDANEXODES
-- SOP\_SEQ\_IDANEXO\_HORASEJECUCION
+-   SOP_LIMITESDEINGRESO 
 
-- SOP\_SEQ\_IDESTADO
-- SOP\_SEQ\_IDLIMITESDEINGRESO
-- SOP\_SEQ\_ID\_EMERGENCIA
-- SOP\_SEQ\_ID\_FIRMA\_USUARIO
-- SOP\_SEQ\_ID\_INSTALACION
+-   SOP_MENSAJE_PERSONALIZADO 
 
-- SOP\_SEQ\_ID\_TICKET\_OMS
-- SOP\_SEQ\_ID\_VOLUMEN\_TRABAJO
-- SOP\_SEQ\_MENSAJE\_PERSONALIZADO
+```{=html}
+<!-- -->
+```
+-   SOP_TICKET_OMS 
 
-      1.
-### Secuencias Modificadas
+-   SOP_TIPO_INSTALACION 
 
-- SOP\_SEQ\_IDEQUIPO\_ORD
+-   SOP_VOLUMEN_TRABAJO 
 
-      1.
-### Disparadores Creados
+> ** **
 
-- SOP\_TR\_ID\_ANEXO\_CAL
-- SOP\_TR\_ID\_ANEXO\_DES
+### Tablas Modificadas: 
 
-- SOP\_TR\_ID\_ANEXO\_HORASEJECUCION
-- SOP\_TR\_ID\_ANEXO\_PUB
-- SOP\_TR\_ID\_CONDICIONES\_FLUJO
-- SOP\_TR\_ID\_CONDICION\_DEFI
-- SOP\_TR\_ID\_EMERGENCIA
+-   SOP_ANEXO_PUB 
 
-- SOP\_TR\_ID\_ESTADO
-- SOP\_TR\_ID\_FIRMA\_USUARIO
-- SOP\_TR\_ID\_LIMITESDEINGRESO
-- SOP\_TR\_ID\_MENSAJE\_PERSONALIZADO
-- SOP\_TR\_ID\_TICKET\_OMS
+-   SOP_AREA 
 
-- SOP\_TR\_ID\_TIPO\_INSTALACION
-- SOP\_TR\_ID\_VOLUMEN\_TRABAJO
+-   SOP_CIRCUITO_OP 
 
-      1.
-### Disparadores Modificados
+-   SOP_EMPLEADO 
 
-- SOP\_TR\_ID\_EQUIPO\_ORD
+-   SOP_EQUIPO_ORDEN 
 
-- SOP\_TR\_ID\_AREA
+```{=html}
+<!-- -->
+```
+-   SOP_FERIADO 
 
-      1.
-### Paquetes Creados
+-   SOP_ORDEN_OPERACION 
 
-- SOP\_PKG\_CONDICIONES\_FLUJO
-- SOP\_PKG\_CONDICION\_DEFI
+-   SOP_SEG_ORDEN 
 
-- SOP\_PKG\_EMERGENCIA
-- SOP\_PKG\_ESTADO
-- SOP\_PKG\_FIRMA\_USUARIO
-- SOP\_PKG\_FLUJO\_DETALLE\_ALTERNO
-- SOP\_PKG\_LIMITESDEINGRESO
+> ** **
 
-- SOP\_PKG\_LOG\_FILE
-- SOP\_PKG\_MENSAJE\_PERSONALIZADO
-- SOP\_PKG\_TICKET\_OMS
-- SOP\_PKG\_TIPO\_INSTALACION
-- SOP\_PKG\_VALIDAR\_ENVIO\_BDI
+### Secuencias Creadas 
 
-- SOP\_PKG\_VOLUMEN\_TRABAJO
+-   SOP_SEQ_CONDICIONES_FLUJO 
 
-      1.
-### Paquetes Modificados
+-   SOP_SEQ_CONDICION_DEFI 
 
-- SOP\_PKG\_REPORTE
-- SOP\_PKG\_ORDEN\_OPERACION
+-   SOP_SEQ_IDANEXODES 
 
-- SOP\_PKG\_SEG\_ORDEN
-- SOP\_PKG\_ANEXO\_DESCONEX
-- SOP\_PKG\_ANEXO\_ORDEN
-- SOP\_PKG\_AREA
-- SOP\_PKG\_CIRCUITO\_OP
+-   SOP_SEQ_IDANEXO_HORASEJECUCION 
 
-- SOP\_PKG\_FLUJO\_DETALLE
-- SOP\_PKG\_MAIL
-- SOP\_PKG\_ANEXO\_CALIFICACION
-- SOP\_PKG\_ANEXO\_BDI
-- SOP\_PKG\_ANEXO
+```{=html}
+<!-- -->
+```
+-   SOP_SEQ_IDESTADO 
 
-- SOP\_PKG\_BACKLOG
+-   SOP_SEQ_IDLIMITESDEINGRESO 
 
+-   SOP_SEQ_ID_EMERGENCIA 
 
+-   SOP_SEQ_ID_FIRMA_USUARIO 
 
-1.
-# SERVICIOS
+-   SOP_SEQ_ID_INSTALACION 
 
-  1.
-## FIRMAS
+```{=html}
+<!-- -->
+```
+-   SOP_SEQ_ID_TICKET_OMS 
 
-    1.
-### Servidor de Reporting Services
+-   SOP_SEQ_ID_VOLUMEN_TRABAJO 
 
-Es necesario contar con un servidor de Reporting Services en donde se almacene el reporte siguiente:
+-   SOP_SEQ_MENSAJE_PERSONALIZADO 
 
-OrdenOp:
+> ** **
 
-![](RackMultipart20211122-4-15ie4z6_html_e143014c056f4917.png)
+### Secuencias Modificadas 
 
-La ubicación del servidor de reportes y del servidor de imágenes se debe definir en el archivo web.config (Para el caso de este ejemplo, el servidor de reportes y el servidor de imágenes son el mismo SERVIDOR, pero podrían variar):
+-   SOP_SEQ_IDEQUIPO_ORD 
 
-\&lt;addkey=&quot;FolderSharedUrl&quot;value=&quot;http://SERVIDOR/&quot; /\&gt;
+> ** **
 
-\&lt;addkey=&quot;FolderShared&quot;value=&quot;\\SERVIDOR\&quot; /\&gt;
+### Disparadores Creados 
 
-\&lt;addkey=&quot;REPORT\_SERVER&quot;value=&quot;http://SERVIDOR/ReportServer&quot;\&gt;\&lt;/add\&gt;
+-   SOP_TR_ID_ANEXO_CAL 
 
-    1.
+-   SOP_TR_ID_ANEXO_DES 
+
+```{=html}
+<!-- -->
+```
+-   SOP_TR_ID_ANEXO_HORASEJECUCION 
+
+-   SOP_TR_ID_ANEXO_PUB 
+
+-   SOP_TR_ID_CONDICIONES_FLUJO 
+
+-   SOP_TR_ID_CONDICION_DEFI 
+
+-   SOP_TR_ID_EMERGENCIA 
+
+```{=html}
+<!-- -->
+```
+-   SOP_TR_ID_ESTADO 
+
+-   SOP_TR_ID_FIRMA_USUARIO 
+
+-   SOP_TR_ID_LIMITESDEINGRESO 
+
+-   SOP_TR_ID_MENSAJE_PERSONALIZADO 
+
+-   SOP_TR_ID_TICKET_OMS 
+
+```{=html}
+<!-- -->
+```
+-   SOP_TR_ID_TIPO_INSTALACION 
+
+-   SOP_TR_ID_VOLUMEN_TRABAJO 
+
+> ** **
+
+### Disparadores Modificados 
+
+-   SOP_TR_ID_EQUIPO_ORD 
+
+```{=html}
+<!-- -->
+```
+-   SOP_TR_ID_AREA 
+
+> ** **
+
+### Paquetes Creados 
+
+-   SOP_PKG_CONDICIONES_FLUJO 
+
+-   SOP_PKG_CONDICION_DEFI 
+
+```{=html}
+<!-- -->
+```
+-   SOP_PKG_EMERGENCIA 
+
+-   SOP_PKG_ESTADO 
+
+-   SOP_PKG_FIRMA_USUARIO 
+
+-   SOP_PKG_FLUJO_DETALLE_ALTERNO 
+
+-   SOP_PKG_LIMITESDEINGRESO 
+
+```{=html}
+<!-- -->
+```
+-   SOP_PKG_LOG_FILE 
+
+-   SOP_PKG_MENSAJE_PERSONALIZADO 
+
+-   SOP_PKG_TICKET_OMS 
+
+-   SOP_PKG_TIPO_INSTALACION 
+
+-   SOP_PKG_VALIDAR_ENVIO_BDI 
+
+```{=html}
+<!-- -->
+```
+-   SOP_PKG_VOLUMEN_TRABAJO 
+
+** **
+
+### Paquetes Modificados 
+
+-   SOP_PKG_REPORTE 
+
+-   SOP_PKG_ORDEN_OPERACION 
+
+```{=html}
+<!-- -->
+```
+-   SOP_PKG_SEG_ORDEN 
+
+-   SOP_PKG_ANEXO_DESCONEX 
+
+-   SOP_PKG_ANEXO_ORDEN 
+
+-   SOP_PKG_AREA 
+
+-   SOP_PKG_CIRCUITO_OP 
+
+```{=html}
+<!-- -->
+```
+-   SOP_PKG_FLUJO_DETALLE 
+
+-   SOP_PKG_MAIL 
+
+-   SOP_PKG_ANEXO_CALIFICACION 
+
+-   SOP_PKG_ANEXO_BDI 
+
+-   SOP_PKG_ANEXO 
+
+```{=html}
+<!-- -->
+```
+-   SOP_PKG_BACKLOG 
+
+** **
+
+>  
+
+2.  # SERVICIOS
+
+    1.  ## FIRMAS
+
+        1.  ### Servidor de Reporting Services
+
+> Es necesario contar con un servidor de Reporting Services en donde se
+> almacene el reporte siguiente:
+>
+> OrdenOp:
+>
+> ![Graphical user interface, application Description automatically
+> generated](media/image5.png){width="6.072916666666667in"
+> height="2.5590277777777777in"}
+>
+> La ubicación del servidor de reportes y del servidor de imágenes se
+> debe definir en el archivo web.config (Para el caso de este ejemplo,
+> el servidor de reportes y el servidor de imágenes son el mismo
+> SERVIDOR, pero podrían variar):
+>
+> \<add key=\"FolderSharedUrl\" value=\"http://SERVIDOR/\" />
+>
+> \<add key=\"FolderShared\" value=\"\\\\SERVIDOR\\\" />
+>
+> \<add key=\"REPORT_SERVER\"
+> value=\"http://SERVIDOR/ReportServer\"\>\</add>
+
 ### Acceso a carpeta compartida para guardado de firmas
 
-Es necesario contar con un servidor web en donde se almacenen las imágenes que representan las firmas digitales que ingresen los usuarios al momento de autorizar órdenes o desde el mantenimiento de firmas:
+>  
+>
+> Es necesario contar con un servidor web en donde se almacenen las
+> imágenes que representan las firmas digitales que ingresen los
+> usuarios al momento de autorizar órdenes o desde el mantenimiento de
+> firmas:
+>
+> Autorización:
+>
+> ![Graphical user interface, text, application Description
+> automatically generated](media/image6.png){width="2.836877734033246in"
+> height="3.4905653980752405in"}
+>
+> Mantenimiento de Firmas:
+>
+> ![Graphical user interface, text, application, email Description
+> automatically generated](media/image7.png){width="5.377357830271216in"
+> height="2.075984251968504in"}
+>
+> Servidor Web:
+>
+> ![A screenshot of a computer Description automatically generated with
+> medium confidence](media/image8.png){width="6.010416666666667in"
+> height="2.0306747594050742in"}
+>
+> Carpeta Compartida:
+>
+> \\\\SERVIDOR\\images
+>
+> ![Graphical user interface, application Description automatically
+> generated](media/image9.png){width="6.1375in"
+> height="2.2506944444444446in"}
+>
+>  
+>
+> **Consideración Especial:**
+>
+> En el servidor donde se almacenarán imágenes de las firmas, se debe
+> contemplar el permiso de lectura/escritura para el usuario del
+> servidor web. En el caso presentado anteriormente, tanto el servidor
+> de Reporting Services, como el Servidor Web, son el mismo.
+>
+> En el caso en que los servidores sean diferentes, al usuario con el
+> cual se configure IIS, donde se instale la aplicación, debe brindar
+> acceso de lectura-escritura a la carpeta C:\\IMAGES, al usuario de IIS
+> dentro de ese servidor, y permiso de lectura para todos los demás
+> usuarios, debido a que las imágenes deben ser accesibles vía web, para
+> todos los usuarios del sistema SOP.
 
-Autorización:
+2.  ## CARPETA PARA GENERACIÓN DE LOGS
 
-![](RackMultipart20211122-4-15ie4z6_html_4494fd3809579542.png)
+    1.  ### Tarea Programada 
 
-Mantenimiento de Firmas:
+> Se ha implementado una tarea programada llamada
+> "CORREO_BDI_AUTOMATICO_JOB", la cual necesita una carpeta en el
+> servidor de Base de Datos de Oracle donde se encuentre el esquema
+> "SOP".
+>
+> Se recomienda que la carpeta se llame "C:\\LOG_FILE".
+>
+> ![A picture containing shape Description automatically
+> generated](media/image10.png){width="4.614583333333333in"
+> height="0.5625in"}
 
-![](RackMultipart20211122-4-15ie4z6_html_459f00e32f160ef5.png)
+3.  # APLICACIÓN
 
-Servidor Web:
+    1.  ## MENU PRINCIPAL
 
-![](RackMultipart20211122-4-15ie4z6_html_b1534b4fee715daf.png)
+        1.  ### Elementos Creados
 
-Carpeta Compartida:
+> Se han agregado los elementos siguientes (con sus correspondientes
+> registros en la tabla "ORA_ASPNET_SITEMAP" del Esquema de Base de
+> Datos "SEC_USR"):
 
-\\SERVIDOR\images
+-   Configuración:
 
-![](RackMultipart20211122-4-15ie4z6_html_e130edc8c7542488.png)
+    -   Estado instalación.
 
-**Consideración Especial:**
+    -   Acciones por workflow.
 
-En el servidor donde se almacenarán imágenes de las firmas, se debe contemplar el permiso de lectura/escritura para el usuario del servidor web. En el caso presentado anteriormente, tanto el servidor de Reporting Services, como el Servidor Web, son el mismo.
+    -   Estados de Órdenes.
 
-En el caso en que los servidores sean diferentes, al usuario con el cual se configure IIS, donde se instale la aplicación, debe brindar acceso de lectura-escritura a la carpeta C:\IMAGES, al usuario de IIS dentro de ese servidor, y permiso de lectura para todos los demás usuarios, debido a que las imágenes deben ser accesibles vía web, para todos los usuarios del sistema SOP.
+    -   Firmas.
 
-  1.
-## CARPETA PARA GENERACIÓN DE LOGS
+    -   Mensajes de Correo.
 
-    1.
-### Tarea Programada
+    -   Tipos BDI:
 
-Se ha implementado una tarea programada llamada &quot;CORREO\_BDI\_AUTOMATICO\_JOB&quot;, la cual necesita una carpeta en el servidor de Base de Datos de Oracle donde se encuentre el esquema &quot;SOP&quot;.
+        -   Tipos de Instalación.
 
-Se recomienda que la carpeta se llame &quot;C:\LOG\_FILE&quot;.
+        -   Volumen de Trabajo.
 
-![](RackMultipart20211122-4-15ie4z6_html_a354edb3e211e1c0.png)
+        -   Emergencia.
 
-1.
-# APLICACIÓN
+    -   Sincronizar Datos.
 
-  1.
-## MENU PRINCIPAL
+    -   Condiciones Predefinidas.
 
-    1.
-### Elementos Creados
+-   Reportes:
 
-Se han agregado los elementos siguientes (con sus correspondientes registros en la tabla &quot;ORA\_ASPNET\_SITEMAP&quot; del Esquema de Base de Datos &quot;SEC\_USR&quot;):
+    -   Visor de Trabajos Programados.
 
-- Configuración:
-  - Estado instalación.
-  - Acciones por workflow.
-  - Estados de Órdenes.
-  - Firmas.
-  - Mensajes de Correo.
-  - Tipos BDI:
-    - Tipos de Instalación.
-    - Volumen de Trabajo.
-    - Emergencia.
-  - Sincronizar Datos.
-  - Condiciones Predefinidas.
-- Reportes:
-  - Visor de Trabajos Programados.
-  - Planificación de Trabajos.
-- Consulta BDI:
-  - Datos Notificados BDI.
-- Búsqueda de Órdenes.
+    -   Planificación de Trabajos.
 
-![](RackMultipart20211122-4-15ie4z6_html_da042d45ba97b4ce.png)
+-   Consulta BDI:
 
-![](RackMultipart20211122-4-15ie4z6_html_c3f0147900d4acd4.png)
+    -   Datos Notificados BDI.
 
-![](RackMultipart20211122-4-15ie4z6_html_e2fbd9f9863ac49.png) ![](RackMultipart20211122-4-15ie4z6_html_dffff82ec8143f64.png)
+-   Búsqueda de Órdenes.
 
-![](RackMultipart20211122-4-15ie4z6_html_bf65bc83acf0c5e3.png)
-
-![](RackMultipart20211122-4-15ie4z6_html_26e46b511ee9f510.png)
-
-15
-
-![](RackMultipart20211122-4-15ie4z6_html_6f724ba18cb75ac3.jpg)
+> ![Graphical user interface, text Description automatically
+> generated](media/image11.png){width="6.1375in"
+> height="2.5520833333333335in"}
+>
+> ![Graphical user interface, text, application Description
+> automatically generated](media/image12.png){width="6.1375in"
+> height="2.704861111111111in"}
+>
+> ![Graphical user interface, text, application Description
+> automatically generated](media/image13.png){width="6.1375in"
+> height="1.6979166666666667in"} ![Graphical user interface, text,
+> application Description automatically
+> generated](media/image14.png){width="6.1375in"
+> height="1.2895833333333333in"}
+>
+> ![Graphical user interface, text, application, website Description
+> automatically generated](media/image15.png){width="6.1375in"
+> height="1.4375in"}
+>
+> ![Background pattern Description automatically generated with medium
+> confidence](media/image16.png){width="6.1375in"
+> height="1.2805555555555554in"}
