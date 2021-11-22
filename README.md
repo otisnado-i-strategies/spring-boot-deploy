@@ -1,13 +1,12 @@
-![](media/image1.png){width="1.95in" height="1.9680555555555554in"}
+<img src="media/image1.png" style="width:1.95in;height:1.96806in" />
 
 DOCUMENTACIÓN TÉCNICA
 
 SOP - DELSUR
 
-![](media/image2.png){width="2.9782852143482064in"
-height="1.7716535433070866in"}
+<img src="media/image2.png" style="width:2.97829in;height:1.77165in" />
 
-# Contenido {#contenido .TOC-Heading}
+# Contenido
 
 [1. BASES DE DATOS [3](#bases-de-datos)](#bases-de-datos)
 
@@ -59,7 +58,7 @@ height="1.7716535433070866in"}
 
 [1.4.1. Elementos Creados [10](#elementos-creados)](#elementos-creados)
 
-# ![](media/image3.png){width="0.3075087489063867in" height="0.3188976377952756in"}BASES DE DATOS
+# <img src="media/image3.png" style="width:0.30751in;height:0.3189in" />BASES DE DATOS
 
 ** **
 
@@ -77,9 +76,7 @@ height="1.7716535433070866in"}
 > SEC_USR.ORA_ASPNET_SITEMAP para mostrar nuevos elementos en el menú de
 > SOP: 
 >
-> ![Graphical user interface, application, table Description
-> automatically generated](media/image4.png){width="5.626615266841645in"
-> height="1.5093514873140856in"} 
+> <img src="media/image4.png" style="width:5.62662in;height:1.50935in" alt="Graphical user interface, application, table Description automatically generated" /> 
 >
 >  
 
@@ -95,9 +92,8 @@ height="1.7716535433070866in"}
 
 -   SOP_CONDICIONES_FLUJO 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_EMERGENCIA 
 
 -   SOP_ESTADO 
@@ -108,9 +104,8 @@ height="1.7716535433070866in"}
 
 -   SOP_MENSAJE_PERSONALIZADO 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_TICKET_OMS 
 
 -   SOP_TIPO_INSTALACION 
@@ -131,9 +126,8 @@ height="1.7716535433070866in"}
 
 -   SOP_EQUIPO_ORDEN 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_FERIADO 
 
 -   SOP_ORDEN_OPERACION 
@@ -152,9 +146,8 @@ height="1.7716535433070866in"}
 
 -   SOP_SEQ_IDANEXO_HORASEJECUCION 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_SEQ_IDESTADO 
 
 -   SOP_SEQ_IDLIMITESDEINGRESO 
@@ -165,9 +158,8 @@ height="1.7716535433070866in"}
 
 -   SOP_SEQ_ID_INSTALACION 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_SEQ_ID_TICKET_OMS 
 
 -   SOP_SEQ_ID_VOLUMEN_TRABAJO 
@@ -188,9 +180,8 @@ height="1.7716535433070866in"}
 
 -   SOP_TR_ID_ANEXO_DES 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_TR_ID_ANEXO_HORASEJECUCION 
 
 -   SOP_TR_ID_ANEXO_PUB 
@@ -201,9 +192,8 @@ height="1.7716535433070866in"}
 
 -   SOP_TR_ID_EMERGENCIA 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_TR_ID_ESTADO 
 
 -   SOP_TR_ID_FIRMA_USUARIO 
@@ -214,9 +204,8 @@ height="1.7716535433070866in"}
 
 -   SOP_TR_ID_TICKET_OMS 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_TR_ID_TIPO_INSTALACION 
 
 -   SOP_TR_ID_VOLUMEN_TRABAJO 
@@ -227,9 +216,8 @@ height="1.7716535433070866in"}
 
 -   SOP_TR_ID_EQUIPO_ORD 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_TR_ID_AREA 
 
 > ** **
@@ -240,9 +228,8 @@ height="1.7716535433070866in"}
 
 -   SOP_PKG_CONDICION_DEFI 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_PKG_EMERGENCIA 
 
 -   SOP_PKG_ESTADO 
@@ -253,9 +240,8 @@ height="1.7716535433070866in"}
 
 -   SOP_PKG_LIMITESDEINGRESO 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_PKG_LOG_FILE 
 
 -   SOP_PKG_MENSAJE_PERSONALIZADO 
@@ -266,9 +252,8 @@ height="1.7716535433070866in"}
 
 -   SOP_PKG_VALIDAR_ENVIO_BDI 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_PKG_VOLUMEN_TRABAJO 
 
 ** **
@@ -279,9 +264,8 @@ height="1.7716535433070866in"}
 
 -   SOP_PKG_ORDEN_OPERACION 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_PKG_SEG_ORDEN 
 
 -   SOP_PKG_ANEXO_DESCONEX 
@@ -292,9 +276,8 @@ height="1.7716535433070866in"}
 
 -   SOP_PKG_CIRCUITO_OP 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_PKG_FLUJO_DETALLE 
 
 -   SOP_PKG_MAIL 
@@ -305,9 +288,8 @@ height="1.7716535433070866in"}
 
 -   SOP_PKG_ANEXO 
 
-```{=html}
 <!-- -->
-```
+
 -   SOP_PKG_BACKLOG 
 
 ** **
@@ -325,21 +307,18 @@ height="1.7716535433070866in"}
 >
 > OrdenOp:
 >
-> ![Graphical user interface, application Description automatically
-> generated](media/image5.png){width="6.072916666666667in"
-> height="2.5590277777777777in"}
+> <img src="media/image5.png" style="width:6.07292in;height:2.55903in" alt="Graphical user interface, application Description automatically generated" />
 >
 > La ubicación del servidor de reportes y del servidor de imágenes se
 > debe definir en el archivo web.config (Para el caso de este ejemplo,
 > el servidor de reportes y el servidor de imágenes son el mismo
 > SERVIDOR, pero podrían variar):
 >
-> \<add key=\"FolderSharedUrl\" value=\"http://SERVIDOR/\" />
+> \<add key="FolderSharedUrl" value="http://SERVIDOR/" />
 >
-> \<add key=\"FolderShared\" value=\"\\\\SERVIDOR\\\" />
+> \<add key="FolderShared" value="\\\\SERVIDOR\\" />
 >
-> \<add key=\"REPORT_SERVER\"
-> value=\"http://SERVIDOR/ReportServer\"\>\</add>
+> \<add key="REPORT_SERVER" value="http://SERVIDOR/ReportServer">\</add>
 
 ### Acceso a carpeta compartida para guardado de firmas
 
@@ -352,29 +331,21 @@ height="1.7716535433070866in"}
 >
 > Autorización:
 >
-> ![Graphical user interface, text, application Description
-> automatically generated](media/image6.png){width="2.836877734033246in"
-> height="3.4905653980752405in"}
+> <img src="media/image6.png" style="width:2.83688in;height:3.49057in" alt="Graphical user interface, text, application Description automatically generated" />
 >
 > Mantenimiento de Firmas:
 >
-> ![Graphical user interface, text, application, email Description
-> automatically generated](media/image7.png){width="5.377357830271216in"
-> height="2.075984251968504in"}
+> <img src="media/image7.png" style="width:5.37736in;height:2.07598in" alt="Graphical user interface, text, application, email Description automatically generated" />
 >
 > Servidor Web:
 >
-> ![A screenshot of a computer Description automatically generated with
-> medium confidence](media/image8.png){width="6.010416666666667in"
-> height="2.0306747594050742in"}
+> <img src="media/image8.png" style="width:6.01042in;height:2.03067in" alt="A screenshot of a computer Description automatically generated with medium confidence" />
 >
 > Carpeta Compartida:
 >
 > \\\\SERVIDOR\\images
 >
-> ![Graphical user interface, application Description automatically
-> generated](media/image9.png){width="6.1375in"
-> height="2.2506944444444446in"}
+> <img src="media/image9.png" style="width:6.1375in;height:2.25069in" alt="Graphical user interface, application Description automatically generated" />
 >
 >  
 >
@@ -397,15 +368,13 @@ height="1.7716535433070866in"}
     1.  ### Tarea Programada 
 
 > Se ha implementado una tarea programada llamada
-> "CORREO_BDI_AUTOMATICO_JOB", la cual necesita una carpeta en el
+> “CORREO_BDI_AUTOMATICO_JOB”, la cual necesita una carpeta en el
 > servidor de Base de Datos de Oracle donde se encuentre el esquema
-> "SOP".
+> “SOP”.
 >
-> Se recomienda que la carpeta se llame "C:\\LOG_FILE".
+> Se recomienda que la carpeta se llame “C:\\LOG_FILE”.
 >
-> ![A picture containing shape Description automatically
-> generated](media/image10.png){width="4.614583333333333in"
-> height="0.5625in"}
+> <img src="media/image10.png" style="width:4.61458in;height:0.5625in" alt="A picture containing shape Description automatically generated" />
 
 3.  # APLICACIÓN
 
@@ -414,8 +383,8 @@ height="1.7716535433070866in"}
         1.  ### Elementos Creados
 
 > Se han agregado los elementos siguientes (con sus correspondientes
-> registros en la tabla "ORA_ASPNET_SITEMAP" del Esquema de Base de
-> Datos "SEC_USR"):
+> registros en la tabla “ORA_ASPNET_SITEMAP” del Esquema de Base de
+> Datos “SEC_USR”):
 
 -   Configuración:
 
@@ -453,25 +422,13 @@ height="1.7716535433070866in"}
 
 -   Búsqueda de Órdenes.
 
-> ![Graphical user interface, text Description automatically
-> generated](media/image11.png){width="6.1375in"
-> height="2.5520833333333335in"}
+> <img src="media/image11.png" style="width:6.1375in;height:2.55208in" alt="Graphical user interface, text Description automatically generated" />
 >
-> ![Graphical user interface, text, application Description
-> automatically generated](media/image12.png){width="6.1375in"
-> height="2.704861111111111in"}
+> <img src="media/image12.png" style="width:6.1375in;height:2.70486in" alt="Graphical user interface, text, application Description automatically generated" />
 >
-> ![Graphical user interface, text, application Description
-> automatically generated](media/image13.png){width="6.1375in"
-> height="1.6979166666666667in"} ![Graphical user interface, text,
-> application Description automatically
-> generated](media/image14.png){width="6.1375in"
-> height="1.2895833333333333in"}
+> <img src="media/image13.png" style="width:6.1375in;height:1.69792in" alt="Graphical user interface, text, application Description automatically generated" />
+> <img src="media/image14.png" style="width:6.1375in;height:1.28958in" alt="Graphical user interface, text, application Description automatically generated" />
 >
-> ![Graphical user interface, text, application, website Description
-> automatically generated](media/image15.png){width="6.1375in"
-> height="1.4375in"}
+> <img src="media/image15.png" style="width:6.1375in;height:1.4375in" alt="Graphical user interface, text, application, website Description automatically generated" />
 >
-> ![Background pattern Description automatically generated with medium
-> confidence](media/image16.png){width="6.1375in"
-> height="1.2805555555555554in"}
+> <img src="media/image16.png" style="width:6.1375in;height:1.28056in" alt="Background pattern Description automatically generated with medium confidence" />
